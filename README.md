@@ -1,2 +1,2 @@
 # heroku-emote-ai
-https://emote-ai.herokuapp.com/
+repo for emote-ai: https://emote-ai.herokuapp.com/
