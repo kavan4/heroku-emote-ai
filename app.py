@@ -12,6 +12,7 @@ import os
 import tensorflow as tf
 
 app = Flask(__name__)
+app.config['MAX_CONTENT_LENGTH'] = 3 * 1024 * 1024
 
 '''
 say domain name is ks.com/predict
