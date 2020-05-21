@@ -7,10 +7,9 @@ import librosa
 import tensorflow as tf
 import pickle
 
-MODEL_PATH = './mfcc_aug_model.h5'
-JSON_MODEL_PATH = './model_test.json'
-JSON_MODEL_WEIGHTS = './model_test.h5'
-LABEL_ENC_PICKLE_PATH = './labels_mfcc_aug'
+JSON_MODEL_PATH = './model_21may_mfcc_noaug_1.json'
+JSON_MODEL_WEIGHTS = './model_20may_mfcc_aug_2_weights.h5'
+LABEL_ENC_PICKLE_PATH = './labels_mfcc_noaug_1'
 NUM_SAMPLES_TO_CONSIDER = 22050 * 5  # 5sec
 
 
