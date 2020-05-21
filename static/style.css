@@ -1,0 +1,148 @@
+a {
+  color: #337ab7;
+}
+
+a:hover {
+  color:#23527c;
+}
+
+a:visited {
+  color: #8d75a3;
+}
+
+
+
+h2 {
+	font-weight: bold;
+	color: #005A9C;
+	font-size: 140%;
+	text-transform: uppercase;
+}
+
+#controls {
+  display: flex;
+  margin-top: 2rem;
+  max-width: 28em;
+}
+
+button {
+  flex-grow: 1;
+  height: 2.25rem;
+  min-width: 2rem;
+  border: none;
+  border-radius: 0.15rem;
+  background: #007bff;
+  margin-left: 2px;
+  margin-top:70px;
+  box-shadow: inset 0 -0.15rem 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:ghostwhite;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+button:hover, button:focus {
+  outline: none;
+  background: #007bff;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+button:active {
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.2);
+  line-height: 2.5rem;
+}
+
+button:disabled {
+  pointer-events: none;
+  background: lightgray;
+}
+button:first-child {
+  margin-left: 100px;
+}
+
+audio {
+  display: block;
+  width: 100%;
+  margin-top: 0.2rem;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+#formats {
+  margin-top: 0.5rem;
+  font-size: 80%;
+  margin-left: 100px;
+}
+
+#recordingsList{
+	max-width: 28em;
+}
+
+form{
+    margin: 100px;
+}
+
+
+input {
+    background-color: #ccc;
+    border-radius:0.15px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    border-radius: 0.15rem;
+    height: 2.25rem;
+
+}
+
+
+button1 {
+    flex-grow: 1;
+    background-color: #0099cc;
+    color: #fff;
+    cursor: pointer;
+    height: 2.25rem;
+    border: none;
+    border-radius: 0.15rem;
+    box-shadow: inset 0 -0.15rem 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color:ghostwhite;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+h3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer {
+           position: fixed;
+           left: 0;
+           bottom: 0;
+           width: 100%;
+           background-color: #343a40;
+           color: white;
+           text-align: center;
+            }
+

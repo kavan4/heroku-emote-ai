@@ -1,0 +1,16 @@
+Flask>=1.1.2
+gunicorn>=19.9.0
+itsdangerous>=1.1.0
+Jinja2>=2.10.1
+MarkupSafe>=1.1.0
+Werkzeug>=0.15.1
+scipy>=0.15.1
+scikit-learn>=0.18
+matplotlib>=1.4.3
+pandas>=1.0.3
+numpy>=1.9.2
+tensorflow==2.0.2
+librosa>=0.7.2
+SoundFile==0.10.3.post1
+audioread>=2.1.8
+ffmpeg-python==0.2.0
