@@ -1,2 +1,2 @@
 # heroku-emote-ai
-repo for emote-ai: https://emote-ai.herokuapp.com/
+emotion recognition webapp on heroku 'emote-ai': https://emote-ai.herokuapp.com/
